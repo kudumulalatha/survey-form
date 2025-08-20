@@ -56,9 +56,9 @@ This form uses built-in HTML5 validation:
 -  Print-friendly stylesheet for exporting form data
 
 ---
-📅 Author & Date
-Created by: kudumula latha
-Date: July 27, 2025
+## 📅 Author & Date
+- Created by: kudumula latha
+- Date: July 27, 2025
 
 
 
