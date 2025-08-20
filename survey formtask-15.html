@@ -1,0 +1,51 @@
+<html>
+<head>
+    <title>Land Survey Form</title>
+    
+</head>
+<body style="font-family: Arial, sans-serif; background-color:rgb(54, 211, 70);">
+    <h2 style="text-align: center; background-color: #614caf; color: white; padding: 1px;">Land Survey Form</h2>
+    <form>
+       <fieldset style="width:400px; margin:auto; background-color:white;">
+            <legend><h2>Land Details</h2></legend>
+
+            <label for="owner">Owner Name:</label><br>
+            <input type="text" id="owner" name="owner" required><br><br>
+
+            <label for="survey_no">Survey Number:</label><br>
+            <input type="text" id="survey_no" name="survey_no" required><br><br>
+
+            <label for="area">Area (in sq.m):</label><br>
+            <input type="number" id="area" name="area" required><br><br>
+
+            <label for="location">Location:</label><br>
+            <input type="text" id="location" name="location" required><br><br>
+
+            <label for="land_type">Land Type:</label><br>
+            <select id="land_type" name="land_type" required>
+                <option value="">-- Select --</option>
+                <option value="agricultural">Agricultural</option>
+                <option value="residential">Residential</option>
+                <option value="commercial">Commercial</option>
+                <option value="industrial">Industrial</option>
+            </select><br><br>
+
+            <label for="ownership_type">Ownership Type:</label><br>
+            <select id="ownership_type" name="ownership_type">
+                <option value="">-- Select --</option>
+                <option value="owned">Owned</option>
+                <option value="leased">Leased</option>
+                <option value="government">Government</option>
+            </select><br><br>
+
+            <label for="boundaries">Land Boundaries/Adjacent Properties:</label><br>
+            <textarea id="boundaries" name="boundaries" rows="4" cols="40" placeholder="Describe surroundings or neighboring properties"></textarea><br><br>
+
+            <label for="remarks">Remarks / Additional Information:</label><br>
+            <textarea id="remarks" name="remarks" rows="4" cols="40"></textarea><br><br>
+
+            <input type="submit" value="Submit Survey">
+        </fieldset>
+    </form>
+</body>
+</html>
